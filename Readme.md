@@ -8,14 +8,5 @@ gradient-wind and hydrostatic balance, adds it to an arbitrary background densit
 profile, and diagnoses the static stability of the resulting three-dimensional
 density field.
 
-## Quick start
 
-```bash
-pip install -r requirements.txt
-jupyter lab Check-static-stability-isolated-eddy.ipynb
-```
-## Requirements
-
-Python ≥ 3.10, `numpy`, `scipy`, `matplotlib`, `pandas`; `xarray` + `netcdf4` for
-NetCDF input/output. No compiled or external toolbox.
 
