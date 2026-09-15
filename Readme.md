@@ -36,4 +36,3 @@ profile and the instability flag.
 Python ≥ 3.10, `numpy`, `scipy`, `matplotlib`, `pandas`; `xarray` + `netcdf4` for
 NetCDF input/output. No compiled or external toolbox.
 
-## License
