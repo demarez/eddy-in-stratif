@@ -14,23 +14,6 @@ density field.
 pip install -r requirements.txt
 jupyter lab Check-static-stability-isolated-eddy.ipynb
 ```
-
-Run all cells: the notebook works out of the box with a built-in analytical
-stratification, so no data download is required. Only **Section 1** needs to be
-edited: background stratification, grid, eddy parameters (polarity, Rossby
-number, radius, vertical scale and depth), stability thresholds and output paths.
-
-To use your own stratification, set `BACKGROUND["source"] = "netcdf"` and point it
-to a file providing a depth axis, a density profile, the Coriolis parameter and
-the first baroclinic Rossby radius — or simply overwrite `z`, `rho_s`, `f0` and
-`Rd` after Section 2.1.
-
-## Output
-
-`eddy-static-stability.nc` (and a `.csv` summary) contain, for each experiment,
-the parameters, the density anomaly at the eddy centre, the resulting `N²`
-profile and the instability flag.
-
 ## Requirements
 
 Python ≥ 3.10, `numpy`, `scipy`, `matplotlib`, `pandas`; `xarray` + `netcdf4` for
