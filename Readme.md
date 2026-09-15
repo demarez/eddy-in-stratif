@@ -1,6 +1,6 @@
 # Static stability of prescribed three-dimensional eddies
 
-Companion notebook to *"..."* (authors, journal, year).
+Companion notebook to de Marez et al. study.
 
 `Check-static-stability-isolated-eddy.ipynb` prescribes an idealized axisymmetric
 eddy from its vorticity structure, computes the density anomaly required for
